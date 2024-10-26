@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".Page2">
+    
+    
+
+
+
+    <ScrollView
+        android:id="@+id/sv_detailsPage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/imgDetailPage"
+                android:layout_width="match_parent"
+                android:layout_height="281dp"
+                android:background="@drawable/ic_launcher_background"
+                android:scaleType="centerCrop">
+
+            </ImageView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/logo_dolar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$"
+                    android:textSize="23sp"
+
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    >
+                </TextView>
+                <TextView
+                    android:id="@+id/sv_2561"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2561111"
+                    android:textSize="23sp"
+
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="20dp">
+
+                </TextView>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/sv_project_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ParkView Apartment"
+                    android:textStyle="bold"
+                    android:textSize="19sp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp">
+
+                </TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/title_sv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1 Keppel Bay View · Condo for Rent"
+                    android:textSize="13sp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="20dp">
+
+                </TextView>
+                <TextView
+                    android:id="@+id/subtitle_sv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Telok Blangah / Harbourfront (D4)"
+                    android:textSize="13sp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="20dp">
+
+                </TextView>
+
+                <LinearLayout
+                    android:id="@+id/view_on_map"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="10dp"
+                        android:layout_height="15dp"
+                        android:background="@drawable/_9group_map_icon"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp">
+
+                    </ImageView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="View on Map"
+                        android:textStyle="bold"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginLeft="7dp"
+                        android:textColor="@color/blue">
+
+                    </TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/info_beds_bath_area"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="16dp"
+                        android:layout_height="14dp"
+                        android:background="@drawable/_99_group_bed_icon"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="30dp">
+
+                    </ImageView>
+                    <TextView
+                        android:id="@+id/sv_bedrooms"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3"
+                        android:layout_marginTop="26dp"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="16sp">
+
+                    </TextView>
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Beds"
+                        android:layout_marginTop="26dp"
+                        android:layout_marginLeft="5dp"
+                        android:textSize="16sp">
+
+                    </TextView>
+
+                    <ImageView
+                        android:layout_width="16dp"
+                        android:layout_height="14dp"
+                        android:background="@drawable/_99_group_bath"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="30dp">
+
+                    </ImageView>
+                    <TextView
+                        android:id="@+id/sv_bathrooms"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2"
+                        android:layout_marginTop="26dp"
+                        android:layout_marginLeft="7dp"
+                        android:textSize="16sp">
+
+                    </TextView>
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Bathrooms"
+                        android:layout_marginTop="26dp"
+                        android:layout_marginLeft="5dp"
+                        android:textSize="16sp">
+
+                    </TextView>
+                    <ImageView
+                        android:layout_width="16dp"
+                        android:layout_height="14dp"
+                        android:background="@drawable/_99_group_area_size"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="30dp">
+
+                    </ImageView>
+                    <TextView
+                        android:id="@+id/sv_area_size"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2561"
+                        android:layout_marginTop="26dp"
+                        android:layout_marginLeft="7dp"
+                        android:textSize="16sp">
+
+                    </TextView>
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="sqft"
+                        android:layout_marginTop="26dp"
+                        android:textSize="16sp">
+
+                    </TextView>
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Property Details"
+                        android:layout_marginTop="30dp"
+                        android:textStyle="bold"
+                        android:textSize="19sp"
+                        android:layout_marginLeft="20dp">
+
+                    </TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Price/sqft"
+                            android:textSize="16sp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp">
+
+                        </TextView>
+                        <TextView
+                            android:id="@+id/label_1450"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="$1,5 psf"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="170dp">
+
+                        </TextView>
+
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Floor Level"
+                            android:textSize="16sp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp">
+
+                        </TextView>
+                        <TextView
+                            android:id="@+id/label_floor_level"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Mid"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="165dp">
+
+                        </TextView>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="(40 total floor)"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="10dp">
+
+                        </TextView>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="No. of Bedroom"
+                            android:textSize="16sp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp">
+
+                        </TextView>
+                        <TextView
+                            android:id="@+id/label_no_of_bed"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="3"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="130dp">
+
+                        </TextView>
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Furnishing"
+                            android:textSize="16sp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp">
+
+                        </TextView>
+                        <TextView
+                            android:id="@+id/label_furnishing"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Unfurnished"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="165dp">
+
+                        </TextView>
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Facing"
+                            android:textSize="16sp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp">
+
+                        </TextView>
+                        <TextView
+                            android:id="@+id/label_facing"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="North"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="194dp">
+
+                        </TextView>
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Built year (TOP)"
+                            android:textSize="16sp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp">
+
+                        </TextView>
+                        <TextView
+                            android:id="@+id/label_built_year"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="2020"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="130dp">
+
+                        </TextView>
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Tenure"
+                            android:textSize="16sp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp">
+
+                        </TextView>
+                        <TextView
+                            android:id="@+id/label_tenure"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="99-year leasehold"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="192dp">
+
+                        </TextView>
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Property Type"
+                            android:textSize="16sp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp">
+
+                        </TextView>
+                        <TextView
+                            android:id="@+id/label_property_type"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Condo"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="142dp">
+
+                        </TextView>
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="LastUpdated"
+                            android:textSize="16sp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp">
+
+                        </TextView>
+                        <TextView
+                            android:id="@+id/label_last_updated"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Seconds ago"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="149dp">
+
+                        </TextView>
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Description"
+                        android:textSize="19sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="30dp">
+
+                    </TextView>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/label_description"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sit back and enjoy panorama views of Mount Faber and Sentosa. The views are just as good from inside this modern apartment, where sunlight pours in through walls of windows. Reflections at Keppel Bay in Singapore is a luxury waterfront residential
+                        complex on approximately 84,000 m² of land with 750m of shoreline."
+                        android:textSize="16sp"
+                        android:letterSpacing="0.05"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="20dp"
+                        >
+
+
+                    </TextView>
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </ScrollView>
+    <ImageView
+        android:id="@+id/back_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/return_99group"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="25dp"/>
+
+
+</FrameLayout>
